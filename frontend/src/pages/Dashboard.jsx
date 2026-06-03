@@ -31,7 +31,7 @@ import "./dashboard.css";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
-const API_URL = "https://lead-management-crm-kvf0.onrender.com";
+const API_URL = "https://lead-management-crm-kvf0.onrender.com/api/leads";
 
 const Dashboard = () => {
   const [leads, setLeads] = useState([]);
